@@ -1,0 +1,252 @@
+
+   /* Increased specificity by adding parent class */
+.products .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Improved spacing between boxes */
+}
+
+.box {
+  width: 25%; /* Set width for 4 columns on large screens */
+  margin: 15px;  /* Increased margin for better breathing room */
+  padding: 20px; /* Added padding for content within the box */
+  box-sizing: border-box; /* Ensure padding/border doesn't affect width */
+  background-color: #f5f5f5; /* Light gray background for boxes */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center text alignment for improved readability */
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Media query for smaller screens (adjust breakpoint as needed) */
+@media (max-width: 768px) {
+  .box {
+    width: 100%; /* Set width for 2 columns on small screens */
+  }
+}
+
+.box:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: translateY(-3px); /* Slight upward movement on hover */
+}
+
+.box img {
+  max-width: 100%; /* Ensure image scales within the box */
+  height: auto;
+  margin-bottom: 15px; /* Add some space between image and content */
+}
+
+.box .name {
+  font-weight: bold; /* Bold text for product name */
+  margin-bottom: 10px; /* Add some space between name and price */
+}
+
+.box .price {
+  color: #4CAF50; /* Green color for price */
+  font-size: 18px; /* Increase price font size for emphasis */
+  margin-right: 10px; /* Add some space between price and quantity */
+}
+
+.box .qty {
+  border: 1px solid #ccc; /* Add a thin border for quantity input */
+  padding: 5px 10px; /* Increase padding for better user experience */
+  width: 50px; /* Set width for quantity input */
+  text-align: center; /* Center align quantity text */
+}
+
+.box .btn {
+  background-color: #007bff; /* Blue color for button */
+  color: white;
+  padding: 10px 20px; /* Increase padding for a more prominent button */
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  margin-top: 15px; /* Add some space between quantity and button */
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.box .btn:hover {
+  background-color: #0067cc; /* Darken blue color on hover */
+}
+
+.box .delete-btn {
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+  padding: 5px 10px; /* Maintain consistent padding */
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.box .delete-btn:hover {
+  background-color: #d93025; /* Darken red color on hover */
+}
+
+.products .heading {
+  color: #4CAF50; /* Green color for heading */
+  text-align: center; /* Center align heading text */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.products .wishlist-total {
+  margin-top: 30px; /* Add space above total section */
+  display: flex;
+  justify-content: space-between; /* Distribute elements evenly */
+  align-items: center; /*
+*/
+}
+
+/* Increased specificity by adding parent class */
+.products .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Improved spacing between boxes */
+}
+
+.box {
+  width: 25%; /* Set width for 4 columns on large screens */
+  margin: 15px;  /* Increased margin for better breathing room */
+  padding: 20px; /* Added padding for content within the box */
+  box-sizing: border-box; /* Ensure padding/border doesn't affect width */
+  background-color: #f5f5f5; /* Light gray background for boxes */
+  border-radius: 5px; /* Rounded corners for a softer look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center text alignment for improved readability */
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Media query for smaller screens (adjust breakpoint as needed) */
+@media (max-width: 768px) {
+  .box {
+    width: 100%; /* Set width for 2 columns on small screens */
+  }
+}
+
+.box:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: translateY(-3px); /* Slight upward movement on hover */
+}
+
+.box img {
+  max-width: 100%; /* Ensure image scales within the box */
+  height: auto;
+  margin-bottom: 15px; /* Add some space between image and content */
+}
+
+.box .name {
+  font-weight: bold; /* Bold text for product name */
+  margin-bottom: 10px; /* Add some space between name and price */
+}
+
+.box .price {
+  color: #4CAF50; /* Green color for price */
+  font-size: 18px; /* Increase price font size for emphasis */
+  margin-right: 10px; /* Add some space between price and quantity */
+}
+
+.box .qty {
+  border: 1px solid #ccc; /* Add a thin border for quantity input */
+  padding: 5px 10px; /* Increase padding for better user experience */
+  width: 50px; /* Set width for quantity input */
+  text-align: center; /* Center align quantity text */
+}
+
+.box .btn {
+  background-color: #007bff; /* Blue color for button */
+  color: white;
+  padding: 10px 20px; /* Increase padding for a more prominent button */
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  margin-top: 15px; /* Add some space between quantity and button */
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.box .btn:hover {
+  background-color: #0067cc; /* Darken blue color on hover */
+}
+
+.box .delete-btn {
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+  padding: 5px 10px; /* Maintain consistent padding */
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.box .delete-btn:hover {
+  background-color: #d93025; /* Darken red color on hover */
+}
+
+.products .heading {
+  color: #4CAF50; /* Green color for heading */
+  text-align: center; /* Center align heading text */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.wishlist-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px; /* Add subtle rounded corners */
+  background-color: #f5f5f5; /* Light gray background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-top: 30px; /* Add some space above the total section */
+}
+
+.wishlist-total p {
+  font-weight: bold;
+  margin-bottom: 10px; /* Add some space below grand total text */
+}
+
+.wishlist-total span {
+  color: #4CAF50; /* Green color for grand total amount */
+  font-size: 18px; /* Increase grand total font size */
+}
+
+.wishlist-total a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.wishlist-total .option-btn {
+  background-color: #007bff; /* Blue color for continue shopping button */
+}
+
+.wishlist-total .option-btn:hover {
+  background-color: #0067cc; /* Darken blue color on hover */
+}
+
+.wishlist-total .delete-btn {
+  background-color: #f44336; /* Red color for delete button */
+  opacity: 0.7; /* Reduce initial opacity for disabled state */
+}
+
+.wishlist-total .delete-btn:hover {
+  background-color: #d93025; /* Darken red color on hover */
+  opacity: 1; /* Increase opacity on hover for both states */
+}
+
+.wishlist-total .delete-btn.disabled {
+  cursor: not-allowed; /* Indicate disabled state with cursor */
+  pointer-events: none; /* Prevent button interaction when disabled */
+}
+
+@media (max-width: 768px) {
+  .wishlist-total {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    align-items: center; /* Center elements horizontally */
+  }
+  .wishlist-total a {
+    margin-top: 0; /* Remove extra space between buttons on smaller screens */
+  }
+}
