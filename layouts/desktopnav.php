@@ -76,6 +76,7 @@
          
          <?php
             }else{
+              
          ?>
 
          
@@ -143,6 +144,7 @@
                         <a href="#" class="menu-title">Hot Offers</a>
                     </li>
 
+                    <?php if (isset($_SESSION['user_id'])): ?>
                     <li class="menu-category">
                         <a href="#" class="menu-title">
                             
@@ -171,6 +173,8 @@
 
                         </ul>
                     </li>
+                    <?php endif; ?>
+
 
                 </ul>
 

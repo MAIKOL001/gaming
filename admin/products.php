@@ -202,7 +202,7 @@ $total_pages = ceil($total_records / $records_per_page); // Calculate total page
          <tbody>
             <?php foreach ($products as $product) { ?>
                <tr>
-                  <td><img src="../uploaded_img/<?= $product['image_01']; ?>" alt=""></td>
+                  <td><img src="../uploaded_img/<?= $product['image_01']; ?>" alt="" style="height:20%; width:20%;"></td>
                   <td><?= $product['name']; ?></td>
                   <td>Ksh. <span><?= $product['price']; ?></span>/-</td>
                   <td><?= $product['details']; ?></td>
